@@ -1,0 +1,15 @@
+{
+  "name": "cartora",
+  "version": "0.1.0",
+  "description": "Learning-focused evolving e-commerce backend",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
